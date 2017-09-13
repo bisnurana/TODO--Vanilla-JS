@@ -7,7 +7,7 @@
     <title>MY TODOS</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="style/style.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
   <body>
     <header id="main-header" class="bg-primary text-white p-4">
@@ -17,14 +17,19 @@
     </header>
 
      <div class="container">
-        
         <div id="main" class="card card-body">
           <h2 class="title">Add to the list</h2>
-          <form class="form-inline">
-            <input type="text" name="" class="form-control mr-3">
-            <button type="submit" class="btn btn-success pl-5 pr-5">Add</button>
-            
+          <form class="form-inline mb-5">
+            <input type="text" name="" class="form-control m-1">
+            <button type="submit" value="Submit" class="btn btn-success pl-5 pr-5 m-1">Add</button>              
           </form>
+
+          <h2 class="title">My lists</h2>
+            <ul id="items" class="list-group">
+              <li class="list-group-item">Item 1</li>
+              <li class="list-group-item">Item 2</li>
+              <li class="list-group-item">Item 3</li>
+            </ul>
         </div>
       </div>
     
